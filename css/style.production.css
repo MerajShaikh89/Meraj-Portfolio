@@ -1,0 +1,377 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* Defining CSS Variables */
+
+/* Global Resets */
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    font-family: 'Montserrat', sans-serif;
+    padding: 30px;
+    background-image: url(../images/v915-wit-007-k.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    font-size: larger;
+}
+
+/* Logo Image Styling */
+.logo-image {
+    width: 100px;
+    height: 100px;
+    margin-right: auto;
+}
+
+/* Link Styling */
+a {
+    display: inline-block;
+    -webkit-transition: color 0.3s ease, -webkit-transform 0.3s ease;
+    transition: color 0.3s ease, -webkit-transform 0.3s ease;
+    -o-transition: transform 0.3s ease, color 0.3s ease;
+    transition: transform 0.3s ease, color 0.3s ease;
+    transition: transform 0.3s ease, color 0.3s ease, -webkit-transform 0.3s ease;
+    text-decoration: none;
+    color: #357b70;
+}
+
+/* Styling for Visited Links */
+a:visited {
+    color: #36056e;
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline;
+}
+
+/* Styling for Active Links */
+a:active {
+    color: #f70810;
+}
+
+/* Hover and Focus States for Links */
+a:hover,
+a:focus {
+    text-decoration: none;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+/* Button Styling */
+.button-style {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px 0;
+    background-color: #85aaf3;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    -webkit-transition: color 0.3s ease, -webkit-transform 0.3s ease;
+    transition: color 0.3s ease, -webkit-transform 0.3s ease;
+    -o-transition: transform 0.3s ease, color 0.3s ease;
+    transition: transform 0.3s ease, color 0.3s ease;
+    transition: transform 0.3s ease, color 0.3s ease, -webkit-transform 0.3s ease;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px 0;
+    background-color: #85aaf3;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    -webkit-transition: color 0.3s ease, -webkit-transform 0.3s ease;
+    transition: color 0.3s ease, -webkit-transform 0.3s ease;
+    -o-transition: transform 0.3s ease, color 0.3s ease;
+    transition: transform 0.3s ease, color 0.3s ease;
+    transition: transform 0.3s ease, color 0.3s ease, -webkit-transform 0.3s ease;
+}
+
+/* Hover and Focus States for Buttons */
+.button-style:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    cursor: pointer;
+    background-color: #0056b3;
+}
+
+button:focus {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    cursor: pointer;
+    background-color: #0056b3;
+}
+
+button:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    cursor: pointer;
+    background-color: #0056b3;
+}
+
+/* Footer Styling */
+.page-footer {
+    font-size: 25px;
+    color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/* Profile Section Styling */
+main.profile {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 75px;
+}
+
+/* Profile Portrait Styling */
+.profile_portrait {
+    width: 115%;
+    margin-right: 40px;
+    border-radius: 50%;
+    border: 5px solid lightblue;
+}
+
+/* Header Styling */
+.page-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border: 5px solid lightblue;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 4%;
+}
+
+/* Navigation List Styling */
+.navigation-list {
+    list-style-type: none;
+}
+
+/* Navigation List Item Styling */
+.navigation-list li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+/* Footer SVG Icon Styling */
+.footer-svg {
+    height: 40px;
+    padding-left: 15px;
+}
+
+.contact-information,
+.login-form,
+form {
+    margin-bottom: 20px;
+}
+
+.contact-information h2,
+.login-form h2 {
+    margin-bottom: 10px;
+}
+
+form label,
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input,
+form textarea,
+form button {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.text-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.table {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.text-container {
+    line-height: 1.8;
+    text-indent: 20px;
+    text-align: justify;
+    margin: 10px 0;
+    max-width: 800px;
+}
+
+.grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 20px 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    line-height: 1.5;
+}
+
+.grid__item:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    z-index: 1;
+    background-color: aquamarine;
+}
+
+@media all and (max-width: 600px) {
+    .grid {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media all and (min-width: 600px) and (max-width: 750px) {
+    .grid {
+        -ms-grid-columns: 1fr 20px 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media all and (max-width: 750px) {
+    .grid {
+        grid-gap: 10px;
+    }
+
+    .grid__item:last-child {
+        grid-column: auto / auto;
+        grid-row: auto / auto;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+}
+
+/* Cloud Animations */
+@-webkit-keyframes cloud1-move {
+    from {
+        -webkit-transform: translate(200px, 350px) scale(0.01, -0.01);
+        transform: translate(200px, 350px) scale(0.01, -0.01);
+    }
+
+    to {
+        -webkit-transform: translate(550px, 350px) scale(0.01, -0.01);
+        transform: translate(550px, 350px) scale(0.01, -0.01);
+    }
+}
+
+@keyframes cloud1-move {
+    from {
+        -webkit-transform: translate(200px, 350px) scale(0.01, -0.01);
+        transform: translate(200px, 350px) scale(0.01, -0.01);
+    }
+
+    to {
+        -webkit-transform: translate(550px, 350px) scale(0.01, -0.01);
+        transform: translate(550px, 350px) scale(0.01, -0.01);
+    }
+}
+
+#cloud1 {
+    -webkit-transform: translate(200px, 350px) scale(0.01, -0.01);
+    -ms-transform: translate(200px, 350px) scale(0.01, -0.01);
+    transform: translate(200px, 350px) scale(0.01, -0.01);
+    fill: black;
+    -webkit-animation: cloud1-move 10s infinite alternate linear;
+    animation: cloud1-move 10s infinite alternate linear;
+}
+
+@-webkit-keyframes cloud2-move {
+    from {
+        -webkit-transform: translate(800px, 450px) scale(0.015, -0.015);
+        transform: translate(800px, 450px) scale(0.015, -0.015);
+    }
+
+    to {
+        -webkit-transform: translate(350px, 450px) scale(0.015, -0.015);
+        transform: translate(350px, 450px) scale(0.015, -0.015);
+    }
+}
+
+@keyframes cloud2-move {
+    from {
+        -webkit-transform: translate(800px, 450px) scale(0.015, -0.015);
+        transform: translate(800px, 450px) scale(0.015, -0.015);
+    }
+
+    to {
+        -webkit-transform: translate(350px, 450px) scale(0.015, -0.015);
+        transform: translate(350px, 450px) scale(0.015, -0.015);
+    }
+}
+
+#cloud2 {
+    -webkit-transform: translate(800px, 450px) scale(0.015, -0.015);
+    -ms-transform: translate(800px, 450px) scale(0.015, -0.015);
+    transform: translate(800px, 450px) scale(0.015, -0.015);
+    -webkit-animation: cloud2-move 25s infinite alternate linear;
+    animation: cloud2-move 25s infinite alternate linear;
+}
