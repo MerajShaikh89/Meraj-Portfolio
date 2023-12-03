@@ -1,0 +1,319 @@
+/* Global Resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Montserrat', sans-serif;
+    padding: 30px;
+    background-image: url(../images/v915-wit-007-k.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    font-size: larger;
+
+
+
+}
+
+
+
+
+/* Logo Image Styling */
+.logo-image {
+    width: 100px;
+    height: 100px;
+    margin-right: auto;
+}
+
+/* Link Styling */
+a {
+    display: inline-block;
+    transition: transform .3s ease, color .3s ease;
+    text-decoration: none;
+    color: #357b70;
+}
+
+/* Styling for Visited Links */
+a:visited {
+    color: #36056e;
+    text-decoration-line: underline;
+}
+
+/* Styling for Active Links */
+a:active {
+    color: #f70810;
+}
+
+/* Hover and Focus States for Links */
+a:hover,
+a:focus {
+    text-decoration: none;
+    transform: scale(1.3);
+
+}
+
+/* Button Styling */
+.button-style {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px 0;
+    background-color: #85aaf3;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: transform .3s ease, color .3s ease;
+
+
+
+}
+
+/* Hover and Focus States for Buttons */
+.button-style:hover,
+button:focus {
+    transform: scale(1.2);
+    cursor: pointer;
+    background-color: #0056b3;
+}
+
+/* Standard Button Styling */
+button {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px 0;
+    background-color: #85aaf3;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: transform .3s ease, color .3s ease;
+
+}
+
+/* Hover State for Standard Buttons */
+button:hover {
+    transform: scale(1.1);
+    background-color: #0056b3;
+    cursor: pointer;
+
+
+
+
+}
+
+/* Footer Styling */
+.page-footer {
+    font-size: 25px;
+    color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+
+}
+
+/* Profile Section Styling */
+main.profile {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 75px;
+}
+
+/* Profile Portrait Styling */
+.profile_portrait {
+    width: 115%;
+    margin-right: 40px;
+    border-radius: 50%;
+    border: 5px solid lightblue;
+}
+
+/* Header Styling */
+.page-header {
+    display: flex;
+    border: 5px solid lightblue;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 4%;
+
+}
+
+/* Navigation List Styling */
+.navigation-list {
+    list-style-type: none;
+}
+
+/* Navigation List Item Styling */
+.navigation-list li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+/* Footer SVG Icon Styling */
+.footer-svg {
+    height: 40px;
+    padding-left: 15px;
+}
+
+.contact-information,
+.login-form,
+form {
+    margin-bottom: 20px;
+}
+
+.contact-information h2,
+.login-form h2 {
+    margin-bottom: 10px;
+    /* Spacing under headings */
+}
+
+form label,
+form input,
+form textarea,
+form button {
+    display: block;
+    /* Makes elements stack vertically */
+    width: 100%;
+    /* Full width */
+    margin-bottom: 10px;
+    /* Spacing between form elements */
+}
+
+form input,
+form textarea,
+form button {
+    padding: 10px;
+    /* Padding for input, textarea, and button */
+    border-radius: 5px;
+    /* Rounded corners for aesthetics */
+}
+
+.text-container,
+.table {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* White with 70% opacity */
+    /* White with 70% opacity */
+    padding: 15px;
+    /* Add some padding around the text */
+
+    border-radius: 5px;
+    /* Optional: Adds rounded corners */
+
+}
+
+
+.text-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Semi-transparent white background */
+    padding: 15px;
+    /* Padding around the text */
+    line-height: 1.8;
+    /* Increases line spacing for better readability */
+    text-indent: 20px;
+    /* First line indentation in each paragraph */
+    text-align: justify;
+    /* Justifies the text for a clean look */
+    border-radius: 5px;
+    /* Optional: rounded corners */
+    margin: 10px 0;
+    /* Margin around the text container */
+    max-width: 800px;
+    /* Limiting the width for better readability */
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    line-height: 1.5;
+
+
+
+
+}
+
+.grid__item:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    background-color: aquamarine;
+}
+
+@media all and (max-width: 600px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media all and (min-width: 600px) and (max-width: 750px) {
+    .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media all and (max-width: 750px) {
+    .grid {
+        grid-gap: 10px;
+    }
+
+    .grid__item:last-child {
+        grid-column: auto / auto;
+        grid-row: auto / auto;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+}
+
+@keyframes cloud1-move {
+    from {
+        transform: translate(200px, 350px) scale(0.01, -0.01);
+        /* Starting position */
+    }
+
+    to {
+        transform: translate(550px, 350px) scale(0.01, -0.01);
+        /* Moves 200px to the right */
+    }
+}
+
+#cloud1 {
+    transform: translate(200px, 350px) scale(0.01, -0.01);
+    fill: black;
+    /* Initial Position and Scale */
+    animation: cloud1-move 10s infinite alternate linear;
+}
+
+@keyframes cloud2-move {
+    from {
+        transform: translate(800px, 450px) scale(0.015, -0.015);
+        /* Adjust initial position if needed */
+    }
+
+    to {
+        transform: translate(350px, 450px) scale(0.015, -0.015);
+        /* Larger horizontal movement */
+    }
+}
+
+#cloud2 {
+    transform: translate(800px, 450px) scale(0.015, -0.015);
+    /* Initial Position and Scale */
+    animation: cloud2-move 25s infinite alternate linear;
+}
